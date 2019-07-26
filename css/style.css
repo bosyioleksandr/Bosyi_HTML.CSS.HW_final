@@ -1,0 +1,461 @@
+@import url(reset.css);
+@import url(fonts.css);
+@import url(hover.css);
+@import url(style768.css);
+@import url(fonts768.css);
+@import url(style480.css);
+@import url(fonts480.css);
+@import url(style320.css);
+@import url(fonts320.css);
+
+@media screen and (min-width: 1101px) and (max-width: 2400px) {
+
+    .container {
+        width: 960px;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .container_header_top {
+        width: 960px;
+        height: 280px;
+        margin: 0 auto;
+    }
+
+    .container_header_center {
+        height: 400px;
+        margin: 0 auto;
+        background-image: url(images/overlay.png);
+    }
+
+    .container_header_bottom {
+        width: 960px;
+        height: 166px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .header {
+        height: 846px;
+        background-image: url(images/bg.png);
+        background-position: center -475px;
+    }
+
+    .logo_menu {
+        height: 280px;
+        padding-top: 72px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        height: 50%;
+    }
+
+    .menu {
+        width: 631px;
+        height: 50%;
+    }
+
+    .ul_menu {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .content_phone {
+        height: 400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header_content {
+        width: 510px;
+        height: 256px;
+    }
+
+    .wrapper_txt_header_1 {
+        margin-bottom: 5px;
+    }
+
+    .header_phone {
+        width: 276px;
+        height: 100%;
+        position: relative;
+    }
+
+    .header_phone_small {
+        width: 130px;
+        height: 268px;
+        background-image: url(images/iPhone_small.png);
+        position: absolute;
+        top: 61px;
+    }
+
+    .header_phone_big {
+        width: 197px;
+        height: 434px;
+        background-image: url(images/iPhone_big.png);
+        position: absolute;
+        top: -17px;
+        right: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .shape_1 {
+        width: 70px;
+        height: 70px;
+        margin-top: 152px;
+        background-image: url(images/Shape_1.png);
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .shape_2 {
+        width: 50px;
+        height: 50px;
+        background-image: url(images/Shape_2.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .shape_3 {
+        width: 22px;
+        height: 25px;
+        background-image: url(images/Shape_3.png);
+    }
+
+    .header_bottom_navigation {
+        width: 83px;
+        height: 19px;
+        margin: 93px 96px 0 0;
+        background-image: url(images/Navigation.png);
+    }
+
+    .section_top {
+        height: 342px;
+        display: flex;
+        background-image: linear-gradient(to top, #322539 0%, #745083 100%);
+    }
+
+    .box-wrapper{
+        height: 100%;
+        display: flex;
+    }
+
+    .box_1 {
+        width: 33.33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: left;
+    }
+
+    .box_2 {
+        width: 275px;
+        height: 190px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .box_logo_1 {
+        width: 27px;
+        height: 27px;
+        margin-top: 6px;
+        background-image: url(images/source_of_icons.png);
+        background-position: -409px -147px;
+    }
+
+    .box_logo_2 {
+        width: 28px;
+        height: 28px;
+        margin-top: 8px;
+        background-image: url(images/source_of_icons.png);
+        background-position: -333px -273px;
+    }
+
+    .box_logo_3 {
+        width: 27px;
+        height: 27px;
+        margin-top: 6px;
+        background-image: url(images/source_of_icons.png);
+        background-position: -491px -10px;
+    }
+
+    .box_content_main {
+        width: 223px;
+        height: 100%;
+    }
+
+    .box_content_1 {
+        margin-bottom: 18px;
+    }
+
+    .box_content_2 {
+        margin-bottom: 23px;
+    }
+
+    .box_content_3 {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .section_center {
+        height: 607px;
+        background-color: #f9f9f9;
+    }
+
+    .center_box_main {
+        height: 52%;
+        margin-bottom: 60px;
+        padding-top: 100px;
+        display: flex;
+    }
+
+    .center_box_1 {
+        margin-right: 24px;
+    }
+
+    .center_box_2 {
+        margin-top: 31px;
+    }
+
+    .testimonials {
+        width: 451px;
+        height: 313px;
+    }
+
+    .testimonial {
+        height: 292px;
+        background-image: url(images/Layer_60.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        display: flex;
+    }
+
+    .testimonial_man {
+        width: 49px;
+        height: 49px;
+        margin-top: 19px;
+        background-image: url(images/source_of_icons.png);
+        background-position: -4px -503px;
+    }
+
+    .testimonial_text_main {
+        margin-left: 15px;
+    }
+
+    .testimonial_text_1 {
+        margin-top: 33px;
+    }
+
+    .testimonial_text_2 {
+        width: 346px;
+        height: 190px;
+        margin-top: 5px;
+        overflow: hidden;
+    }
+
+    .testimonial_navigation_wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testimonial_navigation {
+        width: 85px;
+        height: 20px;
+        background-image: url(images/source_of_icons.png);
+        background-position: -55px -19px;
+    }
+
+    .from_the_blog_main {
+        width: 440px;
+        height: 261px;
+    }
+
+    .from_the_blog_1 {
+        margin-bottom: 20px;
+    }
+
+    .from_the_blog_2 {
+        display: flex;
+    }
+
+    .from_the_blog_circle_1 {
+        width: 49px;
+        height: 49px;
+        margin-bottom: 17px;
+        background-image: url(images/source_of_icons.png);
+        background-position: -216px -320px;
+    }
+
+    .from_the_blog_circle_2 {
+        width: 49px;
+        height: 49px;
+        margin-bottom: 16px;
+        background-image: url(images/source_of_icons.png);
+        background-position: -145px -380px;
+    }
+
+    .from_the_blog_circle_3 {
+        width: 49px;
+        height: 49px;
+        background-image: url(images/source_of_icons.png);
+        background-position: -74px -438px;
+    }
+
+    .from_the_blog_content_wrapper {
+        margin-left: 16px;
+    }
+
+    .from_the_blog_content {
+        margin-bottom: 16px;
+    }
+
+    .from_the_blog_3 {
+        height: 24px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .logos_wrapper {
+        height: 119px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .logos {
+        width: 775px;
+        height: 65px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo_1 {
+        width: 69px;
+        height: 65px;
+        background-image: url(images/logos.png);
+    }
+
+    .logo_2 {
+        width: 76px;
+        height: 65px;
+        background-image: url(images/logos.png);
+        background-position: -133px;
+    }
+
+    .logo_3 {
+        width: 69px;
+        height: 65px;
+        background-image: url(images/logos.png);
+        background-position: -269px;
+    }
+
+    .logo_4 {
+        width: 69px;
+        height: 65px;
+        background-image: url(images/logos.png);
+        background-position: -409px;
+    }
+
+    .logo_5 {
+        width: 102px;
+        height: 65px;
+        background-image: url(images/logos.png);
+        background-position: -528px;
+    }
+
+    .logo_6 {
+        width: 78px;
+        height: 65px;
+        background-image: url(images/logos.png);
+        background-position: -697px;
+    }
+
+    .section_bottom {
+        height: 396px;
+        background-color: #ececec;
+    }
+
+    .section_bottom_wrapper {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .section_bottom_content_main {
+        width: 277px;
+        height: 201px;
+    }
+
+    .section_bottom_content_1 {
+        margin-bottom: 24px;
+    }
+
+    .section_bottom_content_2 {
+        margin-bottom: 14px;
+    }
+
+    .section_bottom_content_3 {
+        width: 277px;
+        height: 114px;
+        overflow: hidden;
+    }
+
+    .section_bottom_content_4 {
+        margin-bottom: 18px;
+    }
+
+    .section_bottom_content_5 {
+        width: 277px;
+        height: 165px;
+        overflow: hidden;
+    }
+
+    .footer {
+        height: 134px;
+        background-image: url(images/footer.png);
+    }
+
+    .footer_menu_autograph {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer_menu {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ul_footer_menu {
+        width: 530px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer_autograph {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+}

@@ -1,0 +1,13 @@
+.txt_menu:hover {
+    border-bottom: 2px solid #edbfff;
+}
+
+.txt_readmore:hover {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+@media screen and (min-width: 501px) and (max-width: 790px) {
+    .ul_menu:hover {
+        height: 260px;
+    }
+}
